@@ -8,16 +8,16 @@ import { BackToTop } from "@/features/navigation/ui/back-to-top";
 
 export const metadata: Metadata = {
   title: {
-    default: "Ons Abid — Full Stack & AI Engineer",
-    template: "%s | Ons Abid — Full Stack & AI Engineer",
+    default: "Ons Abid — Full-Stack & AI Engineer",
+    template: "%s | Ons Abid — Full-Stack & AI Engineer",
   },
   description:
-    "Portfolio of Ons Abid, Full Stack & AI Engineer in Sfax, Tunisia. Applied AI, data systems, Edge AI and software engineering projects.",
-  applicationName: "Ons Abid — Full Stack & AI Engineer",
+    "Portfolio of Ons Abid, Full-Stack & AI Engineer in Sfax, Tunisia. Applied AI, data systems, Edge AI and software engineering projects.",
+  applicationName: "Ons Abid — Full-Stack & AI Engineer",
   openGraph: {
     type: "website",
     locale: "en_US",
-    title: "Ons Abid — Full Stack & AI Engineer",
+    title: "Ons Abid — Full-Stack & AI Engineer",
     description:
       "IA appliquée, systèmes de données et développement logiciel, de l’expérimentation au produit.",
   },

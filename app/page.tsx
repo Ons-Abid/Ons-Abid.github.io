@@ -7,7 +7,7 @@ import { I18nText } from "@/features/preferences/components/i18n-text";
 
 const proofPoints = [
   { value: "94 %", labelFr: "HitRate@1 · système RAG", labelEn: "HitRate@1 · RAG system", href: "/projects/digital-twin" },
-  { value: "95 %", labelFr: "F1 détection · Edge AI", labelEn: "Detection F1 · Edge AI", href: "/projects/edge-ai" },
+  { value: "Edge AI", labelFr: "Analyse d’anomalies IoT", labelEn: "IoT anomaly analysis", href: "/projects/edge-ai" },
   { value: "22 FPS", labelFr: "PlaqueGuard · vision", labelEn: "PlaqueGuard · computer vision", href: "/projects/plaqueguard" },
   { value: "470k+", labelFr: "mesures énergie analysées", labelEn: "energy readings analysed", href: "/projects/digital-twin" },
 ];
@@ -17,7 +17,7 @@ export default function HomePage() {
     <>
       <section className="hero shell">
         <div className="hero-copy">
-          <p className="eyebrow"><span className="status-dot" /> <I18nText fr="Ingénieure Full Stack & IA" en="Full Stack & AI Engineer" /> <span className="eyebrow-divider">·</span> <I18nText fr="Sfax, Tunisie" en="Sfax, Tunisia" /></p>
+          <p className="eyebrow"><span className="status-dot" /> <I18nText fr="Ingénieure Full Stack & IA" en="Full-Stack & AI Engineer" /> <span className="eyebrow-divider">·</span> <I18nText fr="Sfax, Tunisie" en="Sfax, Tunisia" /></p>
           <h1><I18nText fr="Des systèmes intelligents," en="Intelligent systems," /> <em><I18nText fr="construits pour le réel." en="built for the real world." /></em></h1>
           <p className="hero-lede">
             <I18nText fr="Je relie données, modèles d’IA et applications web pour transformer des problèmes concrets en produits logiciels mesurables." en="I connect data, AI models and web applications to turn real-world problems into measurable software products." />

@@ -17,7 +17,7 @@ export default function AboutPage() {
         <p className="eyebrow"><span className="section-number">02</span> <I18nText fr="À PROPOS" en="ABOUT" /></p>
         <h1><I18nText fr="Curieuse des systèmes," en="Curious about systems," /> <em><I18nText fr="attachée au concret." en="focused on practical outcomes." /></em></h1>
         <p>
-          <I18nText fr="Je suis ingénieure en informatique, spécialisée en IA appliquée et développement Full Stack. J’aime faire le lien entre l’expérimentation technique et les usages réels." en="I am a software engineer focused on applied AI and Full Stack development. I enjoy connecting technical experimentation with real-world use." />
+          <I18nText fr="Je suis ingénieure en informatique, spécialisée en IA appliquée et développement Full Stack. J’aime faire le lien entre l’expérimentation technique et les usages réels." en="I am a software engineer focused on applied AI and full-stack development. I enjoy connecting technical experimentation with real-world use." />
         </p>
       </header>
 

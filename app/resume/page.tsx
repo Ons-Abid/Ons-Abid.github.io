@@ -16,7 +16,7 @@ export default function ResumePage() {
         <div>
           <p className="eyebrow"><span className="section-number">03</span> <I18nText fr="PARCOURS PROFESSIONNEL" en="PROFESSIONAL EXPERIENCE" /></p>
           <h1><I18nText fr="Expérience &" en="Experience &" /> <em><I18nText fr="formation." en="education." /></em></h1>
-          <p><I18nText fr="Ingénieure Full Stack & IA · Sfax, Tunisie" en="Full Stack & AI Engineer · Sfax, Tunisia" /></p>
+          <p><I18nText fr="Ingénieure Full Stack & IA · Sfax, Tunisie" en="Full-Stack & AI Engineer · Sfax, Tunisia" /></p>
         </div>
       </header>
 

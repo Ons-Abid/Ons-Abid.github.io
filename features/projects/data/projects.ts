@@ -67,35 +67,29 @@ export const projects: Project[] = [
   {
     slug: "edge-ai",
     number: "02",
-    title: "Diagnostic multi-tâche pour l’IoT industriel",
-    shortTitle: "CAT-MTL-TwoStep · Edge AI",
+    title: "Contribution technique à un projet de recherche en Edge AI",
+    shortTitle: "Edge AI · Analyse d’anomalies IoT",
     category: "Recherche · IA · IoT",
     period: "Janv. — juin 2025",
-    organization: "IIT · Équipe de recherche avec Toulouse",
+    organization: "IIT · Collaboration avec une équipe de recherche à Toulouse, France",
     summary:
-      "Un pipeline Edge AI pour détecter des anomalies, en caractériser le type et orienter l’analyse de leur cause racine.",
+      "Contribution à un projet académique d’analyse d’anomalies dans des séries temporelles IoT multivariées.",
     visual: "edge",
-    tags: ["PyTorch", "Causal TCN", "Self-Attention", "MQTT", "FastAPI", "Angular"],
+    tags: ["Edge AI", "PyTorch", "MQTT", "FastAPI", "Firebase", "Angular"],
     context:
-      "Travail de recherche conduit à l’IIT avec une équipe de Toulouse. L’article associé a été soumis ; il n’est pas présenté ici comme publié.",
+      "Projet académique mené sous supervision à l’IIT, en collaboration avec une équipe de recherche à Toulouse, en France.",
     challenge:
-      "Concevoir une chaîne de diagnostic capable de traiter des séquences IoT et d’enchaîner détection, typage d’anomalie et analyse de cause racine.",
+      "Explorer la détection d’anomalies, la classification de leur type et l’analyse des causes racines (RCA) dans des séries temporelles IoT multivariées.",
     approach: [
-      "Développement de CAT-MTL-TwoStep, une architecture combinant TCN causal, mécanisme de self-attention et FusionGate.",
-      "Préparation et évaluation sur un jeu de données IoT synthétique de 262 800 échantillons.",
-      "Intégration d’un flux MQTT, d’une API FastAPI et d’une interface Angular pour explorer les résultats.",
+      "Contribution technique à l’étude d’approches Edge AI pour l’analyse d’anomalies dans des données IoT multivariées.",
+      "Travail mené sous supervision universitaire avec une équipe de recherche à Toulouse, en France.",
+      "Exploration d’une architecture Edge Computing en temps réel reposant sur MQTT, FastAPI, Firebase et Angular.",
     ],
     outcomes: [
-      "F1 de 95,0 % pour la détection des anomalies.",
-      "F1 de 95,7 % pour le typage des anomalies.",
-      "Macro-F1 de 98,3 % pour la classification des causes racines.",
+      "Le périmètre du projet couvrait la détection d’anomalies, la classification de leur type et l’analyse des causes racines.",
+      "Le périmètre technique incluait une architecture Edge Computing en temps réel fondée sur MQTT, FastAPI, Firebase et Angular.",
     ],
-    metrics: [
-      { value: "95,0 %", label: "F1 détection", note: "anomalies" },
-      { value: "95,7 %", label: "F1 typage", note: "types d’anomalies" },
-      { value: "98,3 %", label: "Macro-F1 RCA", note: "causes racines" },
-      { value: "262 800", label: "Échantillons", note: "jeu IoT synthétique" },
-    ],
+    metrics: [],
   },
   {
     slug: "plaqueguard",

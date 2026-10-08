@@ -17,7 +17,7 @@ export const experience: Experience[] = [
     period: { fr: "Fév. — juil. 2026", en: "Feb — Jul 2026" },
     role: {
       fr: "Projet de fin d’études — Ingénieure Full Stack & IA",
-      en: "Final-year project — Full Stack & AI Engineer",
+      en: "Final-year project — Full-Stack & AI Engineer",
     },
     organization: { fr: "I-Way", en: "I-Way" },
     description: {
@@ -28,7 +28,7 @@ export const experience: Experience[] = [
   {
     id: "prestacode-2025",
     period: { fr: "Juil. — août 2025", en: "Jul — Aug 2025" },
-    role: { fr: "Stagiaire Full Stack", en: "Full Stack Intern" },
+    role: { fr: "Stagiaire Full Stack", en: "Full-Stack Intern" },
     organization: { fr: "Prestacode", en: "Prestacode" },
     description: {
       fr: "Plateforme de statistiques scolaires avec Angular, Spring Boot et SQL Server ; requêtes dynamiques JPA Criteria API, tableaux de bord Chart.js et rapports PDF.",
@@ -39,16 +39,16 @@ export const experience: Experience[] = [
     id: "iit-research-2025",
     period: { fr: "Janv. — juin 2025", en: "Jan — Jun 2025" },
     role: {
-      fr: "Recherche appliquée — Edge AI",
-      en: "Applied research — Edge AI",
+      fr: "Contribution technique — recherche appliquée en Edge AI",
+      en: "Technical contribution — applied Edge AI research",
     },
     organization: {
-      fr: "IIT · équipe de recherche avec Toulouse",
-      en: "IIT · research team collaborating with Toulouse",
+      fr: "IIT · collaboration avec une équipe de recherche à Toulouse, France",
+      en: "IIT · collaboration with a research team in Toulouse, France",
     },
     description: {
-      fr: "Modèle multi-tâche de diagnostic IoT industriel avec PyTorch, TCN causal, self-attention et FusionGate, évalué sur des séquences synthétiques. Article soumis.",
-      en: "Multi-task model for industrial IoT diagnostics using PyTorch, causal TCN, self-attention and FusionGate, evaluated on synthetic sequences. Paper submitted.",
+      fr: "Contribution technique à un projet de recherche académique sur l’Edge AI et l’analyse d’anomalies dans des données IoT multivariées, menée sous supervision universitaire et en collaboration avec une équipe de recherche à Toulouse, en France. Le projet portait sur la détection d’anomalies, la classification de leur type et l’analyse des causes racines (RCA) dans des séries temporelles IoT multivariées. Le périmètre technique incluait une architecture Edge Computing en temps réel fondée sur MQTT, FastAPI, Firebase et Angular.",
+      en: "Technical contribution to an academic research project on Edge AI and anomaly analysis in multivariate IoT data, conducted under academic supervision and in collaboration with a research team in Toulouse, France. The project focused on anomaly detection, anomaly-type classification, and root cause analysis (RCA) in multivariate IoT time series. Its technical scope included a real-time Edge Computing architecture based on MQTT, FastAPI, Firebase, and Angular.",
     },
   },
   {
@@ -84,7 +84,7 @@ export const education = [
     period: { fr: "2023 — 2026", en: "2023 — 2026" },
     degree: {
       fr: "Diplôme d’ingénieur en Informatique — Génie logiciel & Business Intelligence",
-      en: "Engineering Degree in Computer Science — Software Engineering & Business Intelligence",
+      en: "Engineering Degree in Software Engineering and Information Systems",
     },
     institution: "Institut International de Technologie (IIT), Sfax",
   },

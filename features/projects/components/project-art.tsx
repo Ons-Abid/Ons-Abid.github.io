@@ -19,13 +19,13 @@ export function ProjectArt({ variant }: { variant: ProjectVisual }) {
   if (variant === "edge") {
     return (
       <div className="project-art art-edge" aria-hidden="true">
-        <div className="art-topline"><span>EDGE PIPELINE / 02</span><span>SEQUENCE MODEL</span></div>
+        <div className="art-topline"><span>EDGE PIPELINE / 02</span><span>IOT ANALYSIS</span></div>
         <div className="edge-flow">
           <div className="edge-source"><b>MQTT</b><span>sensor stream</span></div>
           <div className="edge-line"><i /><i /><i /></div>
-          <div className="edge-model"><span>TCN</span><span>ATTN</span><span>FUSION</span></div>
+          <div className="edge-model"><span>DETECT</span><span>CLASSIFY</span><span>ANALYZE</span></div>
           <div className="edge-line"><i /><i /><i /></div>
-          <div className="edge-output"><b>95%</b><span>F1 DETECTION</span></div>
+          <div className="edge-output"><b>RCA</b><span>CAUSE ANALYSIS</span></div>
         </div>
         <div className="edge-wave"><i /><i /><i /><i /><i /><i /><i /><i /><i /><i /><i /><i /><i /><i /><i /><i /><i /><i /><i /><i /><i /></div>
         <div className="art-bottomline"><span>INFERENCE FLOW</span><span>3 STAGES <b>↗</b></span></div>

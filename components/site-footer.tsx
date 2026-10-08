@@ -12,7 +12,7 @@ export function SiteFooter() {
             <Image className="brand-photo" src="/ons-abid.jpg" alt="" width={36} height={36} />
             <span className="brand-name">ONS ABID<span className="brand-period">.</span></span>
           </Link>
-          <p><I18nText fr="Ingénieure Full Stack & IA" en="Full Stack & AI Engineer" /><br /><I18nText fr="Sfax, Tunisie" en="Sfax, Tunisia" /></p>
+          <p><I18nText fr="Ingénieure Full Stack & IA" en="Full-Stack & AI Engineer" /><br /><I18nText fr="Sfax, Tunisie" en="Sfax, Tunisia" /></p>
         </div>
         <div className="footer-links">
           <span className="micro-label"><I18nText fr="EXPLORER" en="EXPLORE" /></span>
