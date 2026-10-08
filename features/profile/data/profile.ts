@@ -83,7 +83,7 @@ export const education = [
   {
     period: { fr: "2023 — 2026", en: "2023 — 2026" },
     degree: {
-      fr: "Diplôme d’ingénieur en Informatique — Génie logiciel & Business Intelligence",
+      fr: "Diplôme d’Ingénieur en Génie Logiciel et Informatique Décisionnelle",
       en: "Engineering Degree in Software Engineering and Information Systems",
     },
     institution: "Institut International de Technologie (IIT), Sfax",
